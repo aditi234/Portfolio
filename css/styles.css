@@ -220,6 +220,8 @@ img{
 /* --------------------------------------Education-------------------------------- */
 .education{
   margin-bottom: 40px;
+  display: flex;
+  flex-direction:column;
 }
 
 .edu-heading{
@@ -227,7 +229,7 @@ img{
   flex-direction:row;
 }
 
-.edu-heading h5,h6{
+.edu-heading h6,h7{
   color:rgb(197, 189, 189);
   margin-left: 10px;
   /* margin-bottom: 15px; */
@@ -240,3 +242,22 @@ img{
 .name{
   color: rgb(131, 161, 206);
 }
+
+/* -------------------------------------------------------------------------------------- */
+
+/* ----------------------------------Achievements------------------------------------------- */
+
+.ach-text{
+  display: flex;
+  flex-direction: column;
+}
+
+.ach-text i{
+  color:rgb(197, 189, 189) !important;
+  margin-top: 3px;
+}
+
+.ach-text h6{
+  color:rgb(197, 189, 189);
+}
+/* ----------------------------------------------------------------------------------------- */
